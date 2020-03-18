@@ -27,6 +27,10 @@ And constructed with the following guidelines:
 
 This private fork is not licenses now maintained.
 
+## Versions
+
+3.1.3 - Update version number to test npm package update process.
+
 ## Important Links
 
 * Code: [http:\/\/github.com\/ortus-solutions\/coldbox-elixir](http://github.com/ortus-solutions/coldbox-elixir)
