@@ -11,7 +11,7 @@ test("it can add javascript entries to a webpack config", () => {
     });
     expect(actual).toMatchObject({
         entry: {
-            "includes/js/app": path.resolve(
+            "webpackOutput/js/app": path.resolve(
                 global.elixir.rootPath,
                 "./resources/assets/js/app.js"
             )
@@ -25,7 +25,7 @@ test("it can override the output name for the entry", () => {
     });
     expect(actual).toMatchObject({
         entry: {
-            "includes/js/foo": path.resolve(
+            "webpackOutput/js/foo": path.resolve(
                 global.elixir.rootPath,
                 "./resources/assets/js/app.js"
             )
@@ -33,7 +33,7 @@ test("it can override the output name for the entry", () => {
     });
     expect(actual).not.toMatchObject({
         entry: {
-            "includes/js/app": path.resolve(
+            "webpackOutput/js/app": path.resolve(
                 global.elixir.rootPath,
                 "resources/assets/js/app.js"
             )
@@ -61,7 +61,7 @@ test("it can override the source directory for the entry", () => {
     });
     expect(actual).toMatchObject({
         entry: {
-            "includes/js/app": path.resolve(
+            "webpackOutput/js/app": path.resolve(
                 global.elixir.rootPath,
                 "./resources/assets/scripts/app.js"
             )

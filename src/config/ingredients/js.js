@@ -5,7 +5,7 @@ module.exports = function(
     filename,
     {
         name = this.withoutExtension(filename),
-        outputDirectory = "includes/js/",
+        outputDirectory = "includes/webpackOutput/",
         entryDirectory = "resources/assets/js/"
     } = {}
 ) {

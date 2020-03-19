@@ -14,7 +14,7 @@ elixir.rootPath = path.resolve(__dirname, "../../../");
 elixir.config = new ElixirConfig();
 elixir.versioning = elixir.isProduction;
 elixir.manifestFileName = "includes/rev-manifest.json";
-elixir.runtimeFileNameWithoutExtension = "includes/js/runtime";
-elixir.vendorChunkFileNameWithoutExtension = "includes/js/vendor";
+elixir.runtimeFileNameWithoutExtension = "includes/webpackOutput/runtime";
+elixir.vendorChunkFileNameWithoutExtension = "includes/webpackOutput/vendor";
 
 module.exports = global.elixir = elixir;
